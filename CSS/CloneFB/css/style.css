@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 56px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left {
+    width: 25%;
+}
+
+.left img {
+    width: 40px;
+    height: 40px;
+}
+
+.mid {
+    width: 50%;
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+}
+
+.mid_info {
+    display: flex;
+    width: 680px;
+
+}
+
+.mid .item {
+    width: 20%;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    /*background-color: #ECF3FF;*/
+    height: 56px;
+}
+
+.mid .item:hover {
+    background-color: #E4F0F6;
+    border-radius: 10px;
+}
+
+.mid .active1:hover {
+    background-color: white;
+    border-radius: 0;
+}
+
+.mid .item svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 24px;
+    height: 24px;
+}
+
+.mid .item .img_change2 path {
+    stroke: #E4E6EB;
+}
+
+
+
+.img_change1 {
+    display: none;
+
+}
+
+.img_change2 {
+}
+
+.active {
+    display: block;
+    fill: #0866ff;
+    z-index: 10;
+}
+
+.active1 {
+    border-bottom: 3px solid #0866ff;
+}
+
+.mid .item .active path {
+    stroke: #0866ff;
+}
+
+.main {
+    display: flex;
+    margin-top: 10px;
+    height: 1500px;
+}
+
+.left_main {
+    background-color: beige;
+}
+
+.right_main {
+    background-color: beige;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.right {
+    width: 25%;
+}
+
+#main {
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_main {
+    width: 25%;
+
+}
+
+.mid_main {
+    width: 50%;
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+}
+
+.reel {
+
+}
+
+.mid_main .reel {
+    height: 293px;
+    width: 680px;
+}
+
+.mid_main .reel .top_reel {
+    height: 72px;
+}
+
+#color_blue {
+    background-color: green;
+}
+
+.reel .bottom_reel {
+    display: flex;
+}
+
+.reel_item {
+    width: 112px;
+    height: 200px;
+    margin-left: 8px;
+    position: relative;
+}
+
+.reel_item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.reel_item .item_icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 10;
+    left: 10px;
+    top: 10px;
+    border: 5px solid blue;
+    overflow: hidden;
+}
+
+
+.right_main{
+    width: 25%;
+}
