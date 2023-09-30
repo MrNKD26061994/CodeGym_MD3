@@ -42,7 +42,11 @@
         </c:forEach>
     </table>
 
-    <a href="calculator-servlet">AAAAAVASV</a>
+    <a href="calculator-servlet">Calculator</a>
+    <br>
+    <a href="currency-converter-servlet">Currency Converter</a>
+    <br>
+    <a href="simple-dictionary-servlet">Simple Dictionary</a>
 </div>
 </body>
 </html>

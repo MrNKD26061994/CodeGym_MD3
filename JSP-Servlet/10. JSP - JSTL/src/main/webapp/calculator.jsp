@@ -43,7 +43,9 @@
         <button>Calculate</button>
     </fieldset>
 </form>
-
-<h3>${number1} ${operator} ${number2} = ${result}</h3>
+    <c:if test="${result != null}">
+        <h1>Result</h1>
+        <h3>${number1} ${operator} ${number2} = ${result}</h3>
+    </c:if>
 </body>
 </html>
